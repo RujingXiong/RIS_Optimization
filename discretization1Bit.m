@@ -1,3 +1,4 @@
+% Function of 1-bit quantization for RIS
 function [Angle] = discretization1Bit(w)
 Angle = angle(w);
 Angle = Angle.*180/pi;
