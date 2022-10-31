@@ -1,3 +1,4 @@
+%Function of 2-bits quantization for RIS
 function [Angle] = Discretization(w)
 Angle = angle(w);
 Angle = Angle.*180/pi;
