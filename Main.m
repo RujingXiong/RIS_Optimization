@@ -17,7 +17,7 @@
 
  y_square = zeros(1,length(N));
 
- loop = 10000;
+ loop = 1000;
  y_my = zeros(loop,length(N)); % my method
  y_man = zeros(loop,length(N)); % Manopt-discrete
  y_Man = zeros(loop,length(N)); % Manopt
