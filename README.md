@@ -1,6 +1,9 @@
 # Optimal Discrete Beamforming of RIS-Aided Wireless Communications: An Inner Product Maximization Approach
-## Reference 
-This Code is related to the published paper entitled "Optimal Discrete Beamforming of RIS-Aided Wireless Communications: An Inner Product Maximization Approach". If you are interested in our work, please reference it using
+## Description
+1. The main branch is for the discrete optimizaion problem with quadratic forms (w^HRw) or 2-norms ||Aw||_2, where the 
+2. The For-lowrank branch code is used to achieve the global optimum in maximizing quadratic forms (w^HRw) or 2-norms ||Aw||_2 where the matrix R ( or A) is M, M≠1. w is the discrete phase configuration vector.
+## Reference 1
+The main code is associated with the published paper entitled "Optimal Discrete Beamforming of RIS-Aided Wireless Communications: An Inner Product Maximization Approach". If you are interested in our work, please reference it using
 ```
 @inproceedings{xiong2024optimal,
   title={Optimal discrete beamforming of RIS-aided wireless communications: An inner product maximization approach},
@@ -11,3 +14,19 @@ This Code is related to the published paper entitled "Optimal Discrete Beamformi
   organization={IEEE}
 }
 ```
+# Optimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization ApproachOptimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization Approach
+## Reference 2 
+The special code in main branch is the Alternating inner product maximization approach, , mainly forp-norm ||Aw||_p(p is 2 within this code) maximization, while A is a matrix with rank-M. This code is associated with the paper--
+Xiong R, Mi T, Lu J, et al. Optimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization Approach[J]. arXiv preprint arXiv:2405.06442, 2024. If you are interested in our work, please reference it using
+```
+@misc{xiong2024optimal,
+  title={Optimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization Approach}, 
+      author={Rujing Xiong and Tiebin Mi and Jialong Lu and Ke Yin and Kai Wan and Fuhai Wang and Robert Caiming Qiu},
+      year={2024},
+      eprint={2405.06442},
+      archivePrefix={arXiv},
+      primaryClass={cs.IT},
+      url={https://arxiv.org/abs/2405.06442}, 
+}
+```
+
