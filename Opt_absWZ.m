@@ -1,4 +1,4 @@
-function [W, valueOpt] = Opt_absWZ(Z,numBits)
+function [W] = Opt_absWZ(Z,numBits)
 % Syntex: [W, valueOpt] = Opt_absWZ(Z,numBits)
 % Z is a complex vector. The software is to solve max |W^H Z|, where W is
 % on unit circle uniformly. 
@@ -50,7 +50,7 @@ angleWeightNormalized = mod(angleWeightNormalized,2^numBits);
 %%
 weightChecked = exp(1i*angleWeightRange.*angleWeightNormalized);
 
-[valueOpt, indexOpt] = max(abs(weightChecked*Z));
+[~, indexOpt] = max(abs(weightChecked*Z));
 
 %%
 W = weightChecked(indexOpt,:)';
