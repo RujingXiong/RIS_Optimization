@@ -16,7 +16,7 @@ The main code is associated with the published paper entitled "Optimal Discrete 
 ```
 # Optimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization ApproachOptimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization Approach
 ## Reference 2 
-The special code in main branch is the Alternating inner product maximization approach, , mainly forp-norm ||Aw||_p(p is 2 within this code) maximization, while A is a matrix with rank-M. This code is associated with the paper--
+The special code "Alternating_main" in main branch is the Alternating inner product maximization approach, , mainly forp-norm ||Aw||_p(p is 2 within this code) maximization, while A is a matrix with rank-M. This code is associated with the paper--
 Xiong R, Mi T, Lu J, et al. Optimal Beamforming of RIS-Aided Wireless Communications: An Alternating Inner Product Maximization Approach[J]. arXiv preprint arXiv:2405.06442, 2024. If you are interested in our work, please reference it using
 ```
 @misc{xiong2024optimal,
